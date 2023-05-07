@@ -119,7 +119,7 @@ const IndexPage = () => (
   // </Layout>
   <div>
     <StaticImage
-        src="/static/images/example.png"
+        src="/example.png"
         loading="eager"
         width={64}
         quality={95}
