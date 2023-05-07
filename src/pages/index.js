@@ -72,8 +72,8 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
-      <StaticImage
-        src="@images/example.png"
+      <img
+        src="../images/example.png"
         loading="eager"
         width={64}
         quality={95}
@@ -82,7 +82,7 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Welcome to <b>Gatsby test!</b>
+        Welcome to <b>Gatsby test 2!</b>
       </h1>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
