@@ -74,15 +74,15 @@ const IndexPage = () => (
     <div className={styles.textCenter}>
       <img
         src="../images/example.png"
-        loading="eager"
-        width={64}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt=""
-        style={{ marginBottom: `var(--space-3)` }}
+        // loading="eager"
+        // width={64}
+        // quality={95}
+        // formats={["auto", "webp", "avif"]}
+        alt="example"
+        // style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Welcome to <b>Gatsby test 2!</b>
+        Welcome to <b>Gatsby test 3!</b>
       </h1>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
