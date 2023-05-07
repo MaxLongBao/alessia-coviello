@@ -119,7 +119,7 @@ const IndexPage = () => (
   // </Layout>
   <div>
     <StaticImage
-        src="../images/example.png"
+        src="/example.png"
         loading="eager"
         width={64}
         quality={95}
@@ -127,7 +127,8 @@ const IndexPage = () => (
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
     />
-    <img src="../images/example.png" alt="nope" />
+    test
+    <img src="/example.png" alt="nope" />
   </div>
 )
 
