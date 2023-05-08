@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #6468cb;
+}
+
+.navbar h3 {
+  font-weight: 400;
+  margin-right: 70px;
+  color: white;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
